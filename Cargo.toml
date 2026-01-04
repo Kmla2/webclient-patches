@@ -9,7 +9,4 @@ crate-type = ["cdylib"]
 [dependencies]
 region = "3.0.0"
 skidscan = "2.0.1"
-
-[dependencies.detour]
-version = "0.8.1"
-default-features = false
+retour = { version = "0.3.1", default-features = false }

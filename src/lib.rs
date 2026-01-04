@@ -5,7 +5,7 @@ use std::{collections::hash_map::HashMap};
 use std::cell::RefCell;
 
 use byond_export::byond_return;
-use detour::RawDetour;
+use retour::RawDetour;
 use skidscan::{Signature, signature};
 
 // I have literally never touched rust before so don't yell at me too hard please
